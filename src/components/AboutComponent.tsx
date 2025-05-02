@@ -38,7 +38,7 @@ export default function AboutComponent() {
 
             <p className='text-[#bdc9d1] mt-4 sm:text-lg text-base font-medium lg:text-xl mb-6'>
             Hi, I'm Michael — a passionate full-stack developer currently honing my skills at CodeStack Academy in Stockton, CA.
-            Throughout my time at CodeStack, I’ve led multiple projects in both front-end and back-end roles, even stepping into the position of Project Manager. I’ve worked with a variety of languages and frameworks to build responsive, user-focused applications, and I’m always eager to tackle new challenges and grow as a developer.
+            Throughout my time at CodeStack, I've led multiple projects in both front-end and back-end roles, even stepping into the position of Project Manager. I've worked with a variety of languages and frameworks to build responsive, user-focused applications, and I'm always eager to tackle new challenges and grow as a developer.
             </p>
           </div>
 
