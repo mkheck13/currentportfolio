@@ -15,7 +15,7 @@ export default function AboutComponent() {
 
             <h1 className='text-white mb-4 text-3xl sm:text-6xl lg:text-7xl font-extrabold'>
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500'>
-                Hi, My name is Michael. I'm a{" "}
+                Hi, My name is Michael. I&#39;m a{" "}
               </span>
               <br />
 
@@ -37,8 +37,8 @@ export default function AboutComponent() {
             </h1>
 
             <p className='text-[#bdc9d1] mt-4 sm:text-lg text-base font-medium lg:text-xl mb-6'>
-            Hi, I'm Michael — a passionate full-stack developer currently honing my skills at CodeStack Academy in Stockton, CA.
-            Throughout my time at CodeStack, I've led multiple projects in both front-end and back-end roles, even stepping into the position of Project Manager. I've worked with a variety of languages and frameworks to build responsive, user-focused applications, and I'm always eager to tackle new challenges and grow as a developer.
+            Hi, I&#39;m Michael — a passionate full-stack developer currently honing my skills at CodeStack Academy in Stockton, CA.
+            Throughout my time at CodeStack, I&#39;ve led multiple projects in both front-end and back-end roles, even stepping into the position of Project Manager. I&#39;ve worked with a variety of languages and frameworks to build responsive, user-focused applications, and I&#39;m always eager to tackle new challenges and grow as a developer.
             </p>
           </div>
 
