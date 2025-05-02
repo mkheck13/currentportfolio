@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import gitLogo from "../Assets/github-mark-white.png";
+import gitLogo from "../assets/github-mark-white.png";
 
 const FooterComponent = () => {
   return (
