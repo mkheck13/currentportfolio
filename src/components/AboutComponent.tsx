@@ -21,14 +21,14 @@ export default function AboutComponent() {
 
               <TypeAnimation
                 sequence={[
-                  "Student",
+                  "Coder",
                   2000,
                   "Web Developer",
                   2000,
                   "Mobile Developer",
                   2000,
-                  "Fullstack Developer",
-                  1000,
+                  "Software Engineer",
+                  2000,
                 ]}
                 wrapper="span"
                 speed={20}
@@ -37,7 +37,8 @@ export default function AboutComponent() {
             </h1>
 
             <p className='text-[#bdc9d1] mt-4 sm:text-lg text-base font-medium lg:text-xl mb-6'>
-              Welcome, as I stated before my name is Michael and I am currently enrolled in CodeStack Academy in Stockton, Ca. I have worked with several languages and frameworks on numerous different projects. During my time at CodeStack I have taken on the role as Project Manager, front end and back end.
+            Hi, I'm Michael — a passionate full-stack developer currently honing my skills at CodeStack Academy in Stockton, CA.
+            Throughout my time at CodeStack, I’ve led multiple projects in both front-end and back-end roles, even stepping into the position of Project Manager. I’ve worked with a variety of languages and frameworks to build responsive, user-focused applications, and I’m always eager to tackle new challenges and grow as a developer.
             </p>
           </div>
 

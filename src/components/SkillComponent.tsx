@@ -43,6 +43,8 @@ const skillsData = [
       { src: "/trello.png", label: "Trello" },
       { src: "/figma.png", label: "Figma" },
       { src: "/notion.png", label: "Notion" },
+      { src: "/postman.png", label: "Postman" },
+      { src: "/git.png", label: "Git" },
     ],
   },
 ];

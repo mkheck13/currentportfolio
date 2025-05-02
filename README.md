@@ -9,9 +9,9 @@
 
 ## Link(s):
 
-[Github-Repo]()
+[Github-Repo](https://github.com/mkheck13/currentportfolio)
 
-[Vercel]()
+[Vercel](https://currentportfolio-gold.vercel.app/)
 
 [Linkedin](https://www.linkedin.com/in/mike-heckerman-08867a306/)
 
