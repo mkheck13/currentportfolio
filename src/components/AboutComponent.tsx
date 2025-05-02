@@ -15,7 +15,7 @@ export default function AboutComponent() {
 
             <h1 className='text-white mb-4 text-3xl sm:text-6xl lg:text-7xl font-extrabold'>
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500'>
-                Hi, My name is Michael. I&#39;m a{" "}
+                Hi, My name is Michael. I'm a{" "}
               </span>
               <br />
 
