@@ -3,30 +3,32 @@
 import React from 'react';
 import Image from "next/image";
 import { motion } from "framer-motion";
-import hackerman from "../assets/hackerman.jpg"; // Replace with real images
+import hackerman from "../assets/hackerman.jpg";
+import spotmeimage from "../assets/spotmeimage.png"
+import ScreenshotPoke from "../assets/ScreenshotPoke.png"
 
 const projects = [
   {
-    title: "Full Stack Application",
-    description: "A full-stack web app built with React, Node.js, and MongoDB. It allows users to create and manage tasks.",
-    techStack: "React, Node.js, MongoDB",
-    image: hackerman,
-    link: "https://caddytrackfrontend.vercel.app/",
+    title: "SpotMe | Full-Stack Fitness Matchmaking Platform",
+    description: "SpotMe is a fitness-focused web application that connects users with compatible workout partners, spotters, and trainers. It features real-time messaging powered by SignalR, dynamic matchmaking, and a clean, mobile-responsive interface. Built with a modern tech stack, SpotMe helps users overcome scheduling and accessibility challenges by streamlining fitness networking in their local area.",
+    techStack: "React • TypeScript • Tailwind CSS • ASP.NET Core Web API • SignalR",
+    image: spotmeimage,
+    link: "https://new-front-end-xi.vercel.app/",
   },
   {
-    title: "E-commerce Platform",
-    description: "An e-commerce platform built with Next.js and TailwindCSS, featuring product listings, shopping cart, and checkout.",
-    techStack: "Next.js, TailwindCSS, Stripe",
-    image: hackerman,
-    link: "#",
+    title: "Pokémon Rebuild",
+    description: "A Pokémon-themed web application that allows users to view and search for Pokémon, with a focus on responsive design and user experience.",
+    techStack: "React • TypeScript • Tailwind CSS • ASP.NET Core Web API",
+    image: ScreenshotPoke,
+    link: "https://rebuildpokemon-o8nj.vercel.app/",
   },
-  {
-    title: "Weather App",
-    description: "A weather app that provides live weather data using OpenWeather API. Users can search for any city and get weather details.",
-    techStack: "React, OpenWeather API",
-    image: hackerman,
-    link: "#",
-  },
+  // {
+  //   title: "Weather App",
+  //   description: "A weather app that provides live weather data using OpenWeather API. Users can search for any city and get weather details.",
+  //   techStack: "React, OpenWeather API",
+  //   image: hackerman,
+  //   link: "#",
+  // },
 ];
 
 export default function ProjectComponent() {

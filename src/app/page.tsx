@@ -8,21 +8,16 @@ import SkillComponent from "@/components/SkillComponent";
 export default function Home() {
   return (
     <>
-    <div className="container mx-auto mt-24 px-12 py-4">
-      <AboutComponent />
+      <div className="container mx-auto mt-24 px-12 py-4">
+        <AboutComponent />
 
-      <SkillComponent />
+        <SkillComponent />
 
-      <ProjectComponent />
+        <ProjectComponent />
 
-      <FooterComponent />
-    </div>
-    
-    
-    
-    
-    
-    
+        <FooterComponent />
+      </div>
+
     </>
 
   );

@@ -19,6 +19,9 @@ const FooterComponent = () => {
             </p>
             <p>mkheck13@gmail.com</p>
           </div>
+          <div className="align-middle my-auto">
+          <a href="/MichaelHeckermanResume.pdf" download="MichaelHeckermanResume.pdf"><button className='px-1 py-1 rounded-full w-full sm:w-fit bg-gradient-to-r from-teal-500 to-blue-500 hover:bg-slate-800 text-white  mt-3' ><span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download Resume</span></button></a>
+          </div>
           <div className="space-y-2 roboto my-6">
             <a
               href="https://github.com/mkheck13"
