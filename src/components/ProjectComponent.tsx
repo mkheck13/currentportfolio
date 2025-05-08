@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from "next/image";
 import { motion } from "framer-motion";
-import hackerman from "../assets/hackerman.jpg";
+// import hackerman from "../assets/hackerman.jpg";
 import spotmeimage from "../assets/spotmeimage.png"
 import ScreenshotPoke from "../assets/ScreenshotPoke.png"
 
