@@ -52,11 +52,11 @@ const skillsData = [
 export default function SkillComponent() {
   return (
     <>
-      <h2 className="text-center text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500 mt-6 mb-10">
+      <h2 id="skills"  className="text-center text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500 mt-6 mb-10">
         Skills
       </h2>
 
-      <div id="skills" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-4 max-w-screen-xl mx-auto items-start">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-4 max-w-screen-xl mx-auto items-start">
 
         {skillsData.map((category, idx) => (
           <motion.div
