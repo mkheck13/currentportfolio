@@ -1,6 +1,5 @@
 "use client";
 
-import Head from "next/head";
 import AboutComponent from "@/components/AboutComponent";
 import FooterComponent from "@/components/FooterComponent";
 import ProjectComponent from "@/components/ProjectComponent";
