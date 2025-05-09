@@ -54,13 +54,11 @@ export default function ProjectComponent() {
               <Image
                 src={project.image}
                 alt={project.title}
-                className="w-full h-full object-cover"
-                layout="responsive"
-                height={256}
-                width={256}
+                fill
+                className="object-cover"
               />
             </figure>
-            <div className="card-body p-6">
+            <div className="card-body pt-4 px-6 pb-6">
               <h2 className="card-title text-xl font-semibold text-teal-600">{project.title}</h2>
               <p className="text-gray-600 mt-2">{project.description}</p>
               <div className="mt-4 flex flex-wrap justify-between items-center">
