@@ -7,10 +7,9 @@ import gitLogo from "../assets/github-mark-white.png";
 const FooterComponent = () => {
   return (
     <>
-      <div id="ContactMe" className="min-h-[200px] text-teal-500 bg-[#121212] px-4 py-6">
+      <div id="ContactMe" className="min-h-[200px] text-teal-500 bg-[#121212] px-4 py-6 ">
         <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6">
-
-          <div className="text-lg space-y-2 roboto">
+          <div className="text-lg space-y-2 roboto items-center text-center md:text-left md:items-start flex flex-col">
             <p className="text-2xl font-semibold">Michael Heckerman</p>
             <p>Stockton, CA</p>
             <p>
@@ -34,7 +33,7 @@ const FooterComponent = () => {
             </a>
           </div>
 
-          <div className="space-y-2 roboto">
+          <div className="space-y-2 roboto items-center text-center md:text-left md:items-start flex flex-col">
             <a
               href="https://github.com/mkheck13"
               target="_blank"
@@ -63,6 +62,7 @@ const FooterComponent = () => {
           </div>
         </div>
       </div>
+
 
     </>
   );

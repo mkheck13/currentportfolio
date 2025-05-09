@@ -34,16 +34,17 @@ const projects = [
 export default function ProjectComponent() {
   return (
     <>
-      <h1 id="projects" className="text-center pt-12 fontlife font-bold text-4xl text-teal-500">
+      <h1 id="projects" className="text-center pt-12 fontlife font-bold text-4xl text-teal-500 mb-10">
         Projects
       </h1>
       <br />
 
-      <div className="xl:grid xl:grid-cols-3 md:grid-cols-1 gap-14 px-5">
+      <div className="flex flex-wrap justify-center gap-20 px-5">
+
         {projects.map((project, index) => (
           <motion.div
             key={index}
-            className="card w-full md:w-96 bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300"
+            className="card w-full max-w-sm bg-base-100 shadow-xl hover:shadow-2xl transition-all duration-300"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -77,6 +78,7 @@ export default function ProjectComponent() {
           </motion.div>
         ))}
       </div>
+
     </>
   );
 }

@@ -51,7 +51,10 @@ const skillsData = [
 
 export default function SkillComponent() {
   return (
-    <div id="skills" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-16 px-5 items-start">
+    <>
+    <h2 className="text-center text-4xl font-bold text-teal-500 mt-10">Skills</h2>
+
+    <div id="skills" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-10 max-w-screen-xl mx-auto items-start">
       {skillsData.map((category, idx) => (
         <motion.div
           key={category.title}
@@ -84,6 +87,10 @@ export default function SkillComponent() {
         </motion.div>
       ))}
     </div>
+
+    </>
+    
+   
   );
 }
 
