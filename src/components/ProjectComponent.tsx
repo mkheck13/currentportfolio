@@ -3,7 +3,6 @@
 import React from 'react';
 import Image from "next/image";
 import { motion } from "framer-motion";
-// import hackerman from "../assets/hackerman.jpg";
 import spotmeimage from "../assets/spotmeimage.png"
 import ScreenshotPoke from "../assets/ScreenshotPoke.png"
 
@@ -22,19 +21,12 @@ const projects = [
     image: ScreenshotPoke,
     link: "https://rebuildpokemon-o8nj.vercel.app/",
   },
-  // {
-  //   title: "Weather App",
-  //   description: "A weather app that provides live weather data using OpenWeather API. Users can search for any city and get weather details.",
-  //   techStack: "React, OpenWeather API",
-  //   image: hackerman,
-  //   link: "#",
-  // },
 ];
 
 export default function ProjectComponent() {
   return (
     <>
-      <h1 id="projects" className="text-center pt-12 fontlife font-bold text-4xl text-teal-500 mb-10">
+      <h1 id="projects" className="text-center pt-12 fontlife font-bold text-5xl text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500 mb-10">
         Projects
       </h1>
       <br />

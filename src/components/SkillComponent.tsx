@@ -52,45 +52,46 @@ const skillsData = [
 export default function SkillComponent() {
   return (
     <>
-    <h2 className="text-center text-4xl font-bold text-teal-500 mt-10">Skills</h2>
+      <h2 className="text-center text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-blue-500 mt-6 mb-10">
+        Skills
+      </h2>
 
-    <div id="skills" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-10 max-w-screen-xl mx-auto items-start">
-      {skillsData.map((category, idx) => (
-        <motion.div
-          key={category.title}
-          className="col-span-1 flex flex-col justify-center items-center"
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: idx * 0.2, ease: "easeInOut" }}
-          viewport={{ once: true }}
-        >
-          <p className="text-4xl font-railway font-medium text-teal-500">{category.title}</p>
-          <div className="flex flex-row flex-wrap justify-center gap-3 mt-5 items-center">
-            {category.items.map((item) => (
-              <Tooltip
-                key={item.label}
-                content={item.label}
-                placement="bottom"
-                style="light"
-                className="px-4 mt-2 font-railway text-lg"
-              >
-                <Image
-                  src={item.src}
-                  width={50}
-                  height={50}
-                  alt={`Icon for ${item.label}`}
-                  className="rounded-sm"
-                />
-              </Tooltip>
-            ))}
-          </div>
-        </motion.div>
-      ))}
-    </div>
+      <div id="skills" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-4 max-w-screen-xl mx-auto items-start">
+
+        {skillsData.map((category, idx) => (
+          <motion.div
+            key={category.title}
+            className="col-span-1 flex flex-col justify-center items-center"
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: idx * 0.2, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          >
+            <p className="text-4xl font-railway font-medium text-teal-500">{category.title}</p>
+            <div className="flex flex-row flex-wrap justify-center gap-3 mt-5 items-center">
+              {category.items.map((item) => (
+                <Tooltip
+                  key={item.label}
+                  content={item.label}
+                  placement="bottom"
+                  style="light"
+                  className="px-4 mt-2 font-railway text-lg"
+                >
+                  <Image
+                    src={item.src}
+                    width={50}
+                    height={50}
+                    alt={`Icon for ${item.label}`}
+                    className="rounded-sm"
+                  />
+                </Tooltip>
+              ))}
+            </div>
+          </motion.div>
+        ))}
+      </div>
 
     </>
-    
-   
   );
 }
 
