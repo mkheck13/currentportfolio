@@ -4,7 +4,7 @@ import Image from 'next/image'
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
 
-import headshot from '../assets/HeadShot2.png'
+import headshot from '../assets/Headshot2.png'
 
 export default function AboutComponent() {
   return (
