@@ -47,7 +47,7 @@ const FooterComponent = () => {
               <p className="text-lg">Github</p>
             </a>
             <a
-              href="https://www.linkedin.com/in/mike-heckerman-08867a306/"
+              href="https://www.linkedin.com/in/michael-heckerman-08867a306/"
               target="_blank"
               className="flex items-center space-x-2"
             >
